@@ -139,18 +139,30 @@ img {
 
 
  @media screen and (max-width:480px){
-    .container{
-        margin: 0;
-        width: 480px;
-    }
-
+   
     .row{
-        display: flex;
         flex-wrap: wrap;
     }
 
-    .steps .col, .lessons .col, .why-us .col{
+    .row .col{
         width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .why-us .col{
+        margin-bottom: 0px;
+    }
+
+    .steps{
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0px;
+        padding-top: 40px;
     }
  }
 
